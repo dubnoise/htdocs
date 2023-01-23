@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgrey;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    margin: auto;
+    height: 8vh;
+    background: rgb(0,217,255);
+    background: linear-gradient(180deg, rgba(0,217,255,1) 0%, rgba(255,255,255,1) 56%);
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid black;
+}
+.izq{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5vw;
+}
+.der{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5vw;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    height: 8vh;
+    line-height: 8vh;
+}
+header a:hover{
+    font-weight: bold;
+    background: rgb(1,135,255);
+    background: linear-gradient(180deg, rgba(1,135,255,1) 0%, rgba(241,241,241,1) 56%);
+}
+.ahref{
+    text-align: center;
+    width: 10vw;
+}
+.logoynombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    height: 8vh;
+    margin-right: 20px;
+    transition: 0.2s;
+}
+.logoynombre:hover{
+    text-shadow: 3px 3px 10px black;
+}
+.logoynombre img{
+    width: 7vh;
+    height: 7vh;
+}
+.logoynombre h3{
+    color: black;
+    margin-left: 5px;
+    font-size: 37px;
+}
+.busqueda {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 3vw;
+}
+form *{
+    height: 6vh;
+    border-radius: 5px;
+}
+.busqueda .buscar{
+    font-weight: bold;
+    background-color:gainsboro;
+    color: black;
+    transition: 0.2s;
+    width: 55px;
+}
+.busqueda .input_busqueda{
+   
+    padding-left: 10px;
+}
+.buscar:hover{
+    background-color:cornflowerblue;
+    
+}
+.login_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    width: 100px;
+    height: 8vh;
+    border-radius: 10px;
+}
+.login_button h3{
+    font-size: 22px;
+    margin-right: 5px;
+    color: black;
+}
+.login_button img{
+    width: 25px;
+}
+.login_button:hover{
+    text-shadow: 3px 3px 10px black;
+}

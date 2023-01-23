@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(80, 151, 210);
+    font-family:Arial, Helvetica, sans-serif
+}
+.login{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+}
+.form-login{
+    display: block;
+    padding: 5px;
+    margin-right: 25px;
+}
+.form-login label{
+    font-weight: bold;
+    font-size: 12px;
+}
+.form-login .label-email{
+    margin-left: 2px;
+}
+.form-login .label-contrasenya{
+    margin-left: 166px;
+}
+.form-login input{
+    width: 200px;
+    height: 35px;
+    border-radius: 4px;
+    padding: 5px;
+}
+.form-login .boton-entrar{
+    height: 35px;
+    color: white;
+    background-color: rgb(104, 201, 240);
+    width: 80px;
+}
+.boton-entrar:hover{
+    background-color: rgb(55, 204, 223);
+}
+.div-recordar{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items:center;
+    /* border: 1px solid black; */
+}
+#recordar{
+    margin-right: 1px;
+    width: 15px;
+    margin-bottom: 5px;
+}
+#label-recordar{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+.div-olvidado-contrasenya{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items:center;
+    font-size: 11px;
+    margin-left: 5px;
+}
+.div-olvidado-contrasenya a{
+    color: rgba(255, 255, 255, 0.72);
+    margin-bottom: 5px;
+}
+.bajo-inputs{
+    /* border: 1px solid black; */
+    display: flex;
+}
+main{
+    display: flex;
+}
+
+/* CSS QUE ES TUENTI */
+
+.que-es-tuenti{
+    color: white;
+    display: flex;
+    border: 1px solid black;
+    width: 50%;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+}
+.tuenti-contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    width: 260px;
+    margin-left: 20vw;
+    text-align: end;
+    height: 40vh;
+    /* border: 1px solid black; */
+}
+.tuenti-contenido h1{
+    font-size: 65px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.tuenti-contenido h2{
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.tuenti-contenido p{
+    line-height: 15px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.731);
+}
+
+.que-es-tuenti img{
+    width: 60px;
+    height: 60px;
+}
+
+/* SOCIAL LOCAL MOVIL */
+.social-local-movil{
+    border: 1px solid black;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-local-movil .social-contenido{
+    border: 1px solid black;
+    
+    width: 30vw;
+    height: 40vh;
+}
+.social-contenido img{
+    float: left;
+    border: 1px solid black;
+    width: 5vw;
+    height: 6vh;
+}

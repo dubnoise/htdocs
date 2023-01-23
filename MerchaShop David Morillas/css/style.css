@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    background: rgb(140,0,255);
+    background: linear-gradient(180deg, rgba(140,0,255,1) 0%, rgba(200,159,251,1) 56%);
+}
+.tienda{
+    border:2px solid black;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    border-radius: 15px;
+    padding: 10px;
+}
+header{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 10vh;
+    
+}
+
+header .header{
+    margin-left: 37%;
+}
+header .header a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    
+}
+.header a:hover{
+    text-shadow: 2px 2px 5px black;
+}
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    border: 2px solid black;
+}
+nav *{
+    color: white;
+    text-align: center;
+    line-height: 5vh;
+    width: 20vw;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    background-color: blueviolet;
+    transition: .5s;
+    height: 5vh;
+}
+nav *:hover{
+    background-color: rgb(179, 117, 237);
+    transition: .5s;
+    color: black;
+}
+.producto{
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    margin: 10px;
+}
+.mas{
+    border-radius: 3px;
+    background-color: lightgreen;
+}
+.mas:hover{
+    background-color:green;
+    transition: 0.3s;
+}
+.menos{
+    border-radius: 3px;
+    background-color: lightcoral;
+}
+.menos:hover{
+    background-color: red;
+    transition: 0.3s;
+}
+.papelera:hover{
+    background-color: grey;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+.img-producto img{
+    width: 120px;
+    height: 120px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(221, 225, 232);
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    height: 85vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container img{
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.container img:hover{
+    opacity: 0.8;
+    box-shadow: 5px 5px 5px black;
+}
+.registro-login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 45vh;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.registro-login h2{
+    text-align: center;
+}
+.registro-login input{
+    padding: 5px;
+    margin-top: 10px;
+}
+.recordar-usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.recordar-usuario input{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+}
+table{
+   margin-top: 20px;
+}
+table, table *{
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
